@@ -1,1 +1,1 @@
-# tusas-telemetry-generator
+# tm-generator

@@ -2,10 +2,20 @@
 
 # Ön Kurulumlar
 1.) Java JDK
+
 2.) [Gradle](https://gradle.org/install/)
+
 3.) Intellij Idea
+
 4.) RabbitMQ  [Windows]()  [MacOS[]() | [Linux]()
+
 5.) ELK  [Windows]() | [MacOS](https://logz.io/blog/elk-mac/) | [Linux]()
+
+Başlatma
+```sh
+brew services start elasticsearch
+```
+
 
 # Notlar
 1. Aşağıdaki komut ile projeyi başlatmayı unutmayınız.

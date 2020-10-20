@@ -19,6 +19,11 @@ brew services start elasticsearch
 brew services start logstash
 ```
 
+```sh
+brew services start kibana
+brew services list
+```
+
 # Notlar
 1. Aşağıdaki komut ile projeyi başlatmayı unutmayınız.
 

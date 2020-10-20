@@ -37,7 +37,9 @@ public class TelemetryGenerationRestController {
     // rabbitmq test
     @GetMapping("/rabbitMq")
     public ModelAndView welcome() throws IOException, TimeoutException {
-        TelemetryPacket message1 = TmPacketGenerationUtil.generateTm("TM_003_012_009_0000", 3);
+
+        TelemetryPacket message1 = TmPacketGenerationUtil.generateTm(telemetryGenerationMQService.getRandomTmName(),
+                telemetryGenerationMQService.getRandomParameterLength());
         eventPublisherService.publishEvent(Events.Event1, message1);
         String message2 = "Implementing RabbitMQ";
         eventPublisherService.publishEvent(Events.Event2, message2);

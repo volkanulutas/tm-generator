@@ -18,7 +18,8 @@ public class TmPacketGenerationUtil {
     private static final int MIN_PARAM_VALUE = 0;
 
     public static TelemetryPacket generateTm(String name, int numberOfParameter) {
-        TelemetryPacket packet = new TelemetryPacket(generateUUID(), name, SATELLITE, System.currentTimeMillis(), System.currentTimeMillis(), "TM", "TM");
+        TelemetryPacket packet = new TelemetryPacket(generateUUID(), name, SATELLITE, System.currentTimeMillis(),
+                System.currentTimeMillis(), "TM", "TM");
         Map<String, TelemetryParameter> parameterMap = new HashMap<>();
         for (int i = 0; i < numberOfParameter; i++) {
             TelemetryParameter parameter = generateParameter(name, (i + 1));

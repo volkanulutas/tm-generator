@@ -11,7 +11,7 @@
 
 5.) ELK  [Windows]() | [MacOS](https://logz.io/blog/elk-mac/) | [Linux]()
 
-Başlatma
+Başlatma (http://localhost:9200)
 ```sh
 brew services start elasticsearch
 ```

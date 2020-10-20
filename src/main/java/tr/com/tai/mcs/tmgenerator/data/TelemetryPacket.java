@@ -4,6 +4,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
 
 import java.io.Serializable;
 import java.util.Map;
@@ -12,7 +14,10 @@ import java.util.Map;
 @Getter
 @ToString
 @NoArgsConstructor
+@Document(indexName = "telemetry", type = "telemetryPacket")
 public class TelemetryPacket implements Serializable {
+
+    @Id
     private String id;
     private String name;
     private String shortDescription;

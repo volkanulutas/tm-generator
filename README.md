@@ -7,22 +7,39 @@
 
 3.) Intellij Idea
 
-4.) RabbitMQ  [Windows]()  [MacOS[]() | [Linux]()
+4.) RabbitMQ  [Windows]()  [MacOS](https://www.rabbitmq.com/install-homebrew.html) | [Linux]()
 
 5.) ELK  [Windows]() | [MacOS](https://logz.io/blog/elk-mac/) | [Linux]()
 
-Başlatma (http://localhost:9200)
+Servisler 
+
+Elestic Search 
 ```sh
 brew services start elasticsearch
 ```
+
+Logstash
+
 ```sh
 brew services start logstash
 ```
+
+Kibana
 
 ```sh
 brew services start kibana
 brew services list
 ```
+
+RabbitMQ
+
+```sh
+brew services start rabbitmq
+```
+
+ELK      : [http://localhost:9200](http://localhost:9200)
+RabbitMQ : [http://localhost:15672/](http://localhost:15672/)
+
 
 # Notlar
 1. Aşağıdaki komut ile projeyi başlatmayı unutmayınız.

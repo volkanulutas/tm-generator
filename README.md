@@ -15,7 +15,9 @@ Başlatma (http://localhost:9200)
 ```sh
 brew services start elasticsearch
 ```
-
+```sh
+brew services start logstash
+```
 
 # Notlar
 1. Aşağıdaki komut ile projeyi başlatmayı unutmayınız.

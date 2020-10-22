@@ -1,11 +1,11 @@
 # tm-generator
 
 # Ön Kurulumlar
-1.) Java JDK
+1.) [Java JDK](https://www.oracle.com/tr/java/technologies/javase/javase-jdk8-downloads.html)
 
 2.) [Gradle](https://gradle.org/install/)
 
-3.) Intellij Idea
+3.) [Intellij Idea](https://www.jetbrains.com/idea/download/#section=windows)
 
 4.) RabbitMQ  [Windows]() | [MacOS](https://www.rabbitmq.com/install-homebrew.html) | [Linux]()
 

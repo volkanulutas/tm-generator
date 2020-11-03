@@ -47,7 +47,7 @@ public class TelemetryGenerationRestController {
     }
 
     // rabbitmq test
-    @RabbitListener(queues = Constants.queueName)
+    // @RabbitListener(queues = Constants.queueName)
     public void processQueue(Map<String, Object> message) {
         EventHandler.handler((Events) message.get("event"), message.get("message"));
     }

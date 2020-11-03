@@ -70,7 +70,7 @@ public class TelemetryGenerationMQService {
 
     public int getRandomParameterLength() {
         Random random = new Random();
-        return 1;
+        return random.nextInt(5);
     }
 }
 

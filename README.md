@@ -118,3 +118,16 @@ react-native run-ios
 react-native run-android
 ```
 
+
+
+
+
+https://jaxenter.com/microservices-performance-problems-172291.html
+https://www.google.com/search?channel=fs&client=ubuntu&q=Common+Microservices+Performance+Problems
+https://cloud.google.com/appengine/docs/standard/java/microservice-performance
+https://walkingtreetech.medium.com/common-microservices-performance-problems-walkingtree-technologies-bb855e295f2
+https://dzone.com/articles/performance-patterns-in-microservices-based-integr
+https://jaxenter.com/microservices-performance-problems-172291.html
+https://walkingtree.tech/common-microservices-performance-problems/
+
+
